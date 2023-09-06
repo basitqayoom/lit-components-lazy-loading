@@ -35,7 +35,7 @@ async function discover(root) {
 function register(tagName) {
   // button
   const tagWithoutPrefix = tagName.replace(/^pw-/i, "");
-  const path = `../dist/${tagWithoutPrefix}.bundle.js`;
+  // const path = `../dist/${tagWithoutPrefix}.bundle.js`;
 
   // If the element is already defined, there's nothing more to do
   if (customElements.get(tagName)) {
@@ -44,8 +44,8 @@ function register(tagName) {
 
   // Register it
   return new Promise((resolve, reject) => {
-    import('../dist/shared.bundle.js');
-    import(path)
+    import("../dist/" + tagWithoutPrefix + ".bundle.js");
+    import("../dist/shared.bundle")
       .then(() => {
         resolve();
         console.log("Custom Element added successfully")

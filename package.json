@@ -1,6 +1,6 @@
 {
-  "name": "lit-lazy-observer",
-  "version": "1.0.6",
+  "name": "lit-lazy",
+  "version": "1.0.7",
   "description": "",
   "private": false,
   "scripts": {

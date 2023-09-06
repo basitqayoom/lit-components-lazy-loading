@@ -1,0 +1,3 @@
+"use strict";(self.webpackChunklit_lazy_observer=self.webpackChunklit_lazy_observer||[]).push([[841],{407:(e,t,r)=>{var n=r(897),o=r(95);let c=class extends n.oi{constructor(){super()}render(){return n.dy`
+            <button>btn</button>
+        `}};c=function(e,t,r,n){var o,c=arguments.length,f=c<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,r):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)f=Reflect.decorate(e,t,r,n);else for(var l=e.length-1;l>=0;l--)(o=e[l])&&(f=(c<3?o(f):c>3?o(t,r,f):o(t,r))||f);return c>3&&f&&Object.defineProperty(t,r,f),f}([(0,o.Mo)("pw-button"),function(e,t){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(e,t)}("design:paramtypes",[])],c)}},e=>{e(e.s=407)}]);

@@ -1,0 +1,4 @@
+"use strict";(self.webpackChunklit_lazy_observer=self.webpackChunklit_lazy_observer||[]).push([[814],{167:(e,t,n)=>{var r=n(897),o=n(95),a=function(e,t,n,r){var o,a=arguments.length,c=a<3?t:null===r?r=Object.getOwnPropertyDescriptor(t,n):r;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)c=Reflect.decorate(e,t,n,r);else for(var l=e.length-1;l>=0;l--)(o=e[l])&&(c=(a<3?o(c):a>3?o(t,n,c):o(t,n))||c);return a>3&&c&&Object.defineProperty(t,n,c),c};let c=class extends r.oi{constructor(){super(...arguments),this.name=""}render(){return r.dy`
+      <p>Hello, ${this.name}</p>
+      <input @input=${this.changeName} placeholder="Enter your name">
+    `}changeName(e){const t=e.target;this.name=t.value}};a([(0,o.Cb)(),function(e,t){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(e,t)}("design:type",String)],c.prototype,"name",void 0),c=a([(0,o.Mo)("pw-input")],c)}},e=>{e(e.s=167)}]);

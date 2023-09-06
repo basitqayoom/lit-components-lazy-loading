@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let toAdd = true
+        window.addEventListener('DOMContentLoaded', ()=>{
+            const btn = document.querySelector('#btn');
+            btn.addEventListener('click', ()=>{
+                if(toAdd){
+                    const el = document.createElement('pw-form');
+                    document.body.appendChild(el);
+                }else{
+                    const el = document.querySelector('pw-form');
+                    document.body.removeChild(el);
+                }
+                toAdd = !toAdd
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>Mutation</h1>
+    <button id="btn">Click to add/remove custom element</button>
+    <pw-button></pw-button>
+    <script src="./index.js"></script>
+</body>
+</html>
